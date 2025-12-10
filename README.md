@@ -37,7 +37,7 @@ datasets/
 └── synthetic_shapes  # создаётся автоматически
 ```
 - **COCO 2014**: [ссылка](http://cocodataset.org/#download)
-- **HPatches**: [ссылка](http://icvl.ee.ic.ac.uk/vbalnt/hpatches/hpatches-sequences-release.tar.gz)
+- **HPatches**: [ссылка](https://www.kaggle.com/datasets/javidtheimmortal/hpatches)
 
 ## Обучение
 ### 1. Обучение MagicPoint на синтетических данных
@@ -54,7 +54,7 @@ python export.py export_detector_homoAdapt configs/magicpoint_coco_export.yaml m
 ```
 python export.py export_detector_homoAdapt configs/magicpoint_coco_export.yaml magicpoint_synth_homoAdapt_coco
 ```
-### 3. Обучение SuperPoint на COCO/KITTI
+### 3. Обучение SuperPoint на COCO
 ```
 python train4.py train_joint configs/superpoint_coco_train_heatmap.yaml superpoint_coco --eval --debug
 ```

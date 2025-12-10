@@ -14,7 +14,7 @@ PyTorch реализация статьи ["SuperPoint: Self-Supervised Interest
 ### Требования
 - Python 3.6+
 - PyTorch ≥ 1.1
-- CUDA (тестировалось на CUDA 10)
+- CUDA (≥ 10)
 
 ```
 conda create --name superpoint python=3.12

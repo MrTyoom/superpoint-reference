@@ -1,9 +1,6 @@
-# PyTorch SuperPoint
+# PyTorch SuperPoint Baseline
 
 PyTorch реализация статьи ["SuperPoint: Self-Supervised Interest Point Detection and Description"](https://arxiv.org/abs/1712.07629). Основано на TensorFlow реализации [rpautrat/SuperPoint](https://github.com/rpautrat/SuperPoint).
-
-## Отличия от оригинальной статьи
-**Descriptor loss**: Используется разреженный метод (sparse method), который сходится эффективнее при сравнимом качестве.
 
 ## Результаты на HPatches
 | Task | Homography estimation | | | Detector metric | | Descriptor metric | |
